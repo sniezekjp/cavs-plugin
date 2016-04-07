@@ -1,0 +1,196 @@
+
+/* SCHEDULE */
+
+#schedule-container { width: 940px; clear: both; margin: 20px 0 10px; }
+#schedule-container .viewport { width: 940px; height: 90px;overflow: hidden; position: relative; }
+#schedule-container .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#schedule-container .thumb .end,
+#schedule-container .thumb { background-color: #333; }
+#schedule-container .scrollbar { position: relative; float: right; width: 15px; }
+#schedule-container .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#schedule-container .thumb { height: 3px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: -20px; color:white; }
+#schedule-container .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#schedule-container .disable{ display: none; }
+
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+.section-34.custom{
+	padding: 10px; 
+}
+#schedule-container{
+	//width: 1500px; 
+}
+
+.schedule-list li{
+	float:left; 
+	list-style-type: none;
+}
+
+.schedule-list > .one_sixth{
+	margin-left: 0; 
+}
+
+.one_sixth,
+.one_sixth_last{
+	width: 85px; 
+	color: #999; 
+}
+.one_sixth .white,
+.one_sixth_last .white{
+	color: white; 
+}
+
+.one_sixth span,
+.one_sixth_last span{
+	color: #00aeef;
+}
+
+.menu-item:hover{
+	cursor: pointer; 
+}
+
+.game{
+	width: 120px;
+	position:relative; 
+}
+.game .edit-event{
+	position: absolute; 
+	top: -20px; 
+	left: 0px; 
+}
+.game .edit-event a{
+	color:#999;
+}
+
+/* SUBSCRIBE WIDGET */
+#s2email{
+	margin-bottom: 0; 
+}
+
+#subscribe-submit,
+#subscribe-btn{
+	background-color: #00aeef; 
+	border: 0px; 
+	color: white; 
+	padding: 12px 10px; 
+}
+
+
+/* COMMERCE */
+.woocommerce form .input-text{
+	padding: 10px; 
+}
+.pagecontent .container .woocommerce form table.cart .coupon input.button,
+.pagecontent .container .woocommerce .cart-collaterals form.shipping_calculator button.button{
+	//background-color: lightgray;
+	//color: #00aeef;
+}
+
+.pagecontent .container .woocommerce form table.cart .coupon #coupon_code{
+	padding: 10px; 
+}
+
+.pagecontent .container .woocommerce a.button,
+.pagecontent .container ul.products li.product a.button,
+.pagecontent .container form.cart button.button,
+.pagecontent .container .woocommerce form table.cart input.checkout-button,
+.pagecontent .container .woocommerce form table.cart input.button,
+.cart-collaterals form.shipping_calculator button.button,
+.pagecontent .container .woocommerce .checkout_coupon input.button,
+.pagecontent .container .woocommerce .checkout input#place_order.button,
+.pagecontent .container .woocommerce input.button{
+	background:none; 
+	background-color: #00aeef; 
+	border: 0px; 
+	border-radius: 0px; 
+	box-shadow: none; 
+	color:white; 
+	padding: 12px 10px; 
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none; 
+	-o-box-shadow: none; 
+	text-shadow: none;
+}
+
+.pagecontent .container form.cart button.button{
+	padding: 10px; 
+}
+
+.pagecontent .container .woocommerce form table.cart input.checkout-button:hover{
+	background-color:black; 
+}
+
+
+.page-contents .container .woocommerce a.button{
+	background:none !important; 
+	background-color: #00aeef !important; 
+	border: 0px !important; 
+	color:white !important; 
+	-webkit-box-shadow: none !important; 
+	-moz-box-shadow: none !important; 
+	-o-box-shadow: none !important; 
+	box-shadow: none !important; 
+	text-shadow: none !important;
+}
+
+.payment_methods li{
+	list-style-type: none;
+}
+
+
+.woocommerce-page .pagetitle{
+	display:none; 
+}
+
+.sidebar input[type="submit"]#searchsubmit,
+.sidebar label.screen-reader-text{
+	//visibility: hidden;
+	display:none; 
+}
+
+
+/* PLAYER INTEREST */
+#player-interest td{
+	padding-right: 10px; 
+	vertical-align: middle;
+}
+#player-interest td select{
+	width:100%; 
+	padding: 10px; 
+	margin-bottom: 20px; 
+}
+
+
+/* TABLE */
+.table tr td{
+	padding-right: 20px; 
+}
+
+strong{
+	font-weight: bold; 
+}
+
+
+
+/* SOCIAL MEDIA */
+#post-social{
+	height: 35px; 
+	margin-left: 0;	
+	margin-top: 20px; 
+	padding-left: 0;	
+	position:relative;  
+}
+
+#post-social li{
+	list-style-type: none;
+	margin-left: 0; 
+	position: absolute;
+}
+
+#post-social .social-fb{}
+#post-social .social-tw{
+	top: 27px; 
+}
+
+
+
