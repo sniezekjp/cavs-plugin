@@ -84,7 +84,7 @@ class Tournament {
 						$sel = '';
 						$output .= '<option value="-">-</option>';
 						foreach( $t as $t ){
-                            if($key === "tournament" && $t->slug !== 'battle-of-nova-2015') {
+                            if($key === "tournament" && $t->slug !== 'battle-of-nova-2016-2') {
                                 continue;
                             } else {
                                 if($t->name === "-") { continue; }
